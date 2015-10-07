@@ -31,7 +31,7 @@ public class Homework {
         
         
         for (int k = 0;k<=numofques; numofques++){
-            System.out.println(questions1[k);
+            System.out.println(questions1[k]);
             String input1 = in.nextLine();
             if (input1.contains(answers[k]){
                 System.out.println("correct");
