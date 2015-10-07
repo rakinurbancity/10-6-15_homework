@@ -22,6 +22,7 @@ public class Homework {
         System.out.print("Enter the number of qouestions you would like; maximum of 5. Enter Here: ");
         int numofques = in.nextInt();
         int randomques = 0;
+        int numrandomques = 0;
         
         if(numofques>5)
         {
