@@ -21,46 +21,31 @@ public class Homework {
         System.out.println("Welcome to the countries of the world quiz! Lets get started!");
         System.out.print("Enter the number of qouestions you would like; maximum of 5. Enter Here: ");
         int numofques = in.nextInt();
-        int randomques = 0;
-        int numrandomques = 0;
-        String[] questions = new String[25];
-        String[1] = "ndwjnjn";
-        String answer = String[2];
-        answer = "question";
+        String[] questions1 = new String[5];
+        questions1[0] = "question?";
+        questions1[1] = "question2";
+        questions1[2] = "questions3?";
+        questions1[3] = "questions4?";
+        questions1[4] = "questions5";
         
-        if(numofques>5)
-        {
-            System.out.println("You input: \"" +numofques +"\" thats too many! You will recieve five questions.");
-            numofques = 5;
+        
+        
+        for (int k = 0;k<=numofques; numofques++){
+            System.out.println(questions1[k);
+            String input1 = in.nextLine();
+            if (input1.contains(answers[k]){
+                System.out.println("correct");
+            }
+            
         }
-        else
-        {
-            if(numofques == 1)
-            {
-                int numrandomques = randomques + 1;
-                System.out.println(numrandomques);
-            }
-            if(numofques == 2)
-            {
-                int numrandomques = randomques + 2;
-                System.out.println(numrandomques);
-            }
-            if(numofques == 3)
-            {
-                int numrandomques = randomques + 3;
-                System.out.println(numrandomques);
-            }
-            if(numofques == 4)
-            {
-                int numrandomques = randomques + 4;
-                System.out.println(numrandomques);
-            }
-            if(numofques >= 5)
-            {
-                int numrandomques = randomques + 5;
-                System.out.println(numrandomques);
-            }
-        }
+
+       
+       
+        
+        
+        
+        
+       
         
         
     }
