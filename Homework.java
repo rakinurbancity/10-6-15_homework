@@ -23,6 +23,10 @@ public class Homework {
         int numofques = in.nextInt();
         int randomques = 0;
         int numrandomques = 0;
+        String[] questions = new String[25];
+        String[1] = "ndwjnjn";
+        String answer = String[2];
+        answer = "question";
         
         if(numofques>5)
         {
