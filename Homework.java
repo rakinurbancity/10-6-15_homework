@@ -21,7 +21,7 @@ public class Homework {
         System.out.println("Welcome to the countries of the world quiz! Lets get started!");
         System.out.print("Enter the number of qouestions you would like; maximum of 5. Enter Here: ");
         int numofques = in.nextInt();
-        String[] questions1 = new String[5];
+        String[] questions1 = new String[numofques];
         questions1[0] = "question?";
         questions1[1] = "question2";
         questions1[2] = "questions3?";
